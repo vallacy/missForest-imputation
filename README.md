@@ -22,7 +22,7 @@ baseline.imp <- missForest(xmis = data, #specify your data set
                            #cutoff for each variable; set to 1 for continuous variables, specify possible values for categorical variables
                            cutoff = list(1, c(0,1,2,3), c(0,1), c(0,1,2), 1,
                                          c(0,1,2), c(0,1)),
-                           xtrue = NA #if you have the complete data set with no missing values, specify it here)
+                           xtrue = NA) #if you have the complete data set with no missing values, specify it here
 
 ```
 
